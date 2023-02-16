@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Styling the Navbar */
+.head {
+    background-color: black;
+    color: white;
+    height: 8.955543806646526vh;
+    width: 100vw;
+}
+
+.ul{
+    display: flex;
+}
+
+.li {
+    list-style: none;
+    padding: 15px;
+}
+
+.link {
+    color: white;
+    text-decoration: none; 
+    padding:  10px;  
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+.element {
+    width: fit-content;
+    height: auto;
+    border: 2px solid white;
+    /* margin-top: 4px; */
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-top: 10px;
+}
+
+.blue{
+    background-color: rgb(0, 96, 240, 0.5);
+    color: rgb(0, 96, 240);
+    /* margin-right: 10px; */
+    /* padding-right: ; */
+}
+
+.element:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.light-blue {
+    background-color: #d8f8ff;
+    color: #00758c;
+}
+
+.red {
+    background-color: #ffe7e7;
+    color: #d60024;
+}
+
+.purple {
+    background-color: #f3e8fd;
+    color: #6232ec;
+}
+
+.orange {
+    color: #c73200;
+    background-color: #ffe6d4;
+}
+
+.black {
+    background-color: #e7e7ea;
+    color: #3f374f;
+}
+
+.yellow {
+    color: #945700;
+    background: #fef7e0;
+}
+
+.green {
+    color: #002c00;
+    background-color: #d6f9e8;
+}
+
+.box {
+    display: flex;
+}
+
+.img {
+    width: 10vw;
+    margin-top: 10px;
+    height: 10vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.parent-2 {
+    margin-left: 53vw;
+    margin-top: -69.5vh;
+    margin-top: -69.5vh;
+}

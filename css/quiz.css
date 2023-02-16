@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+}
+
+html {
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.head {
+    background-color: black;
+    color: white;
+    height: 8.955543806646526vh;
+    width: 100vw;
+}
+
+.ul{
+    display: flex;
+}
+
+.li {
+    list-style: none;
+    padding: 15px;
+}
+
+.link {
+    color: white;
+    text-decoration: none; 
+    padding:  10px;  
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+.inp {
+    list-style: none;
+}
+
+.quizBox {
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(206, 92%, 94%);
+}
+
+.inner-div {
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border: .0px solid black;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.inner-div h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 1rem 0 1rem 0;
+}
+
+input {
+    cursor: pointer;
+}
+
+#submit, .btn {
+    padding: 0.5rem 3rem;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #74b9ff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #0984e3;
+}
+
+#showScore {
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+#showScore .btn {
+    background-color: #55efc4;
+}
+
+#showScore .btn:hover {
+    color: #fff;
+    background-color: #00b894;
+}
+
+.showArea {
+    display: none;
+}
